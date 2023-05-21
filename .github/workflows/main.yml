@@ -3,7 +3,7 @@ name: Cydeo Cypress Tests
 on:
     schedule:
         # schedule at 10:00 sunday
-        - cron: '0 10 * * sun'
+        - cron: '0 01 * * sun'
     
     push:
         branches:
